@@ -1,0 +1,36 @@
+# STM32CubeIDE build output
+Debug/
+Release/
+*/Debug/
+*/Release/
+
+# Compiler and linker artifacts
+*.o
+*.d
+*.su
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.disasm
+
+# Generated makefiles
+objects.list
+objects.mk
+sources.mk
+subdir.mk
+makefile
+
+# Eclipse/STM32CubeIDE local workspace settings
+.settings/
+RemoteSystemsTempFiles/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
